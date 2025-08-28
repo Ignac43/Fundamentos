@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x;//declarar variables
+    cout<<"Ingrese un numero: ";
+    cin>>x;
+    switch (x) {
+        case 1: cout<<"Es uno"<<endl;
+        break; //Salta todos los cases, salta de esa instruccion
+        case 2: cout<<"Es dos"<<endl;
+        break;
+        default: cout<<"Error"<<endl;
+        
+    }
+    return 0;
+}
