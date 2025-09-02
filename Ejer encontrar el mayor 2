@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c, mayor;
+
+    cout << "Ingrese a: ";
+    cin >> a;
+    cout << "Ingrese b: ";
+    cin >> b;
+    cout << "Ingrese c: ";
+    cin >> c;
+
+    if  (a>=b && a>=c)
+    {
+        cout<<"El mayor es: "<<a;
+    }
+        else 
+        { 
+            if (b>=a && b>=c)
+            {
+                cout<<"El mayor es: "<<b;
+            }
+        else 
+        {
+            if (c>=a && c>=b)
+            {
+            cout<<"El mayor es: "<<c;
+            }
+        }
+        }
+    return 0;
+}
